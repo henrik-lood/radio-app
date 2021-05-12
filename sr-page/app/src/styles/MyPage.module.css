@@ -1,0 +1,68 @@
+.bg{
+  color: aliceblue;
+}
+
+.modalContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.modal{
+  position: relative;
+  width: 85%;
+  background-color: rgb(58, 58, 58);
+  padding: 1rem;
+  z-index: 10;
+  text-align: center;
+}
+
+.closeBtn{
+  position: absolute;
+  color: azure;
+  margin-left: 90%;
+  background-color: black;
+  padding: 0.3rem;
+  z-index: 11;
+}
+
+.btnContainer, .form{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.btnContainerPrograms{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+.btn{
+  width: 30%;
+}
+
+.header{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.input, .mailBtn{
+  width: 45%;
+}
+
+@media only screen and (min-width:768px) {
+  .channelName, .programName, .btn, .formText, .input, .mailBtn{
+    font-size: 1.5rem;
+  }
+}
+  
+@media only screen and (min-width:992px) {
+  .masterContainer{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .closeBtn{
+    margin-left: 60%;
+  }
+}

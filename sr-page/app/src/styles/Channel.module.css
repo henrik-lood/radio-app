@@ -1,0 +1,95 @@
+.programCard, .programName, .schedule, .time{
+  color: aliceblue;
+}
+
+.img{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.programName, h2, h3{
+  color: aliceblue;
+  text-align: center;
+}
+
+.programName{
+  font-size: 1.5rem;
+}
+
+.programCard{
+  padding: 0.3rem 0.5rem;
+}
+
+.fav{
+  border: 1px solid black;
+  background-color: beige;
+  color: black;
+  position: relative;
+  padding: 0.3rem 0.5rem;
+  width: 100%;
+}
+
+.toggleBtn{
+  background-color: aliceblue;
+  border: none;
+  color: rgb(66, 62, 62);
+  padding: 0.4rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  border-radius: 0.4rem;
+}
+
+@media only screen and (min-width:768px) {
+  .programContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .programCard{
+    width: 70%;
+  }
+
+  .imageContainer{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+  
+@media only screen and (min-width:992px) {
+  .programContainer{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+  }
+
+  .schedualContainer{
+    display: inline;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+
+  .programCard{
+    width: 20%;
+  }
+
+  .schedualCard{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .imageContainer{
+    width: 30%;
+  }
+}

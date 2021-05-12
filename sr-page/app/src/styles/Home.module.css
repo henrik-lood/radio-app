@@ -1,0 +1,107 @@
+body{
+  background-color:#212020;
+}
+
+h1{
+  color: aliceblue;
+  text-align: center;
+}
+
+.viewText{
+  color: aliceblue;
+  text-align: center;
+}
+
+.toggleBtn{
+  background-color: aliceblue;
+  border: none;
+  color: rgb(66, 62, 62);
+  padding: 0.4rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  border-radius: 0.4rem;
+}
+
+.toggleBtn:hover{
+  cursor: pointer;
+  background-color: rgb(162, 168, 173);
+  color: rgb(255, 255, 255);
+}
+
+.channelContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.channelCard{
+  justify-content: center;
+  width: 40%;
+  padding: 0.5rem;
+  background-color: beige;
+  margin: 0.2rem;
+  min-width: 7rem;
+}
+
+.channelCard:hover{
+  background-color: rgb(172, 172, 154);
+}
+
+.favChannelBtn{
+  text-align: center;
+  width: 100%;
+}
+
+.name{
+  font-size: 1.2rem;
+  padding: 0.4rem;
+  text-align: center;
+}
+
+.imgTag{
+  height: 7rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* categories */
+.categoryContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.categoriesCard{
+  padding: 0.3rem 0.5rem;
+  background-color: beige;
+  width: 45%;
+  margin-top: 0.5rem;
+  text-align: center;
+  min-width: 7rem;
+}
+  .categoriesCard:hover{
+  background-color:  rgb(172, 172, 154);
+}
+
+@media only screen and (min-width:768px) {
+  .channelCard {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width:992px) {
+  .channelCard {
+    width: 15rem;
+  }
+  .categoriesCard{
+    width: 30%;
+  }
+}

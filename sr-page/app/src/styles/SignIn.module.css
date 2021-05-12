@@ -1,0 +1,63 @@
+.signIn{
+  color: aliceblue;
+}
+
+.toggleBtn{
+  background-color: aliceblue;
+  border: none;
+  color: rgb(66, 62, 62);
+  padding: 0.4rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  border-radius: 0.4rem;
+}
+
+.formContainer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.submitBtn{
+  background-color: aliceblue;
+  border: none;
+  color: rgb(66, 62, 62);
+  padding: 0.4rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  align-self: center;
+  border-radius: 0.4rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+input{
+  margin-bottom: 1rem;
+  width: 50%;
+  font-size: 1rem;
+  padding: 0.2rem;
+}
+
+@media only screen and (min-width:768px) {
+  .signIn{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .formContainer{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width:992px) {
+  .signIn{
+    width: 40%;
+  }
+}

@@ -1,0 +1,34 @@
+nav{
+  margin-bottom: 1rem;
+}
+
+h1{
+  font-size: 2.4rem;
+}
+
+.noDec{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li{
+  margin-left: 1rem;
+}
+
+ul{
+  list-style-type: none;
+  color: aliceblue;
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (min-width:768px) {
+  .textElement{
+    font-size: 1.5rem;
+  }
+}
